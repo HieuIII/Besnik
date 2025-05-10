@@ -8,4 +8,85 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common */
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  display: flex;
+}
+
+header .logo2 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 57px;
+  margin-left: 135px;
+}
+
+header .logo2 .icon {
+  background-color: #192122;
+  width: 32.137px;
+  height: 32.731px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+header .menu {
+  margin-left: 235px;
+  margin-top: 64px;
+}
+
+header .menu .nut-menu {
+  margin-right: 39px;
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header .menu .nut-menu.active {
+  font-weight: 600;
+}
+
+header .menu .nut-menu:hover {
+  text-shadow: 1px 0 0;
+}
+
+header .sign-up {
+  display: flex;
+  margin-left: 138px;
+  margin-top: 52px;
+  align-items: center;
+}
+
+header .sign-up .sign-in {
+  color: #494949;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 24px;
+}
+
+header .sign-up .btn {
+  color: #1ebfc1;
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 108px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .sign-up .btn:hover {
+  background-color: #1ebfc1;
+  color: #fff;
 }
