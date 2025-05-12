@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  all: unset; /* Loại bỏ tất cả kiểu mặc định */
+  cursor: pointer; /* Đảm bảo vẫn giữ hiệu ứng con trỏ khi hover */
+}
+
 /* header */
 header {
   display: flex;
@@ -89,4 +94,216 @@ header .sign-up .btn {
 header .sign-up .btn:hover {
   background-color: #1ebfc1;
   color: #fff;
+}
+
+/* main */
+/* hero */
+main .hero {
+  margin-top: 50px;
+  margin-left: 135px;
+  display: flex;
+}
+
+/* box-left */
+main .hero .box-left {
+  padding-top: 93px;
+}
+
+main .hero .box-left p:nth-child(1) {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+main .hero .box-left h1 {
+  width: 458px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.129%; /* 116.129% */
+  margin-bottom: 46px;
+}
+
+main .hero .box-left p:nth-child(3) {
+  width: 374px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177.778%; /* 177.778% */
+  margin-bottom: 52px;
+}
+
+main .hero .box-left .start {
+  display: flex;
+}
+
+main .hero .box-left .start a {
+  display: flex;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 186px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+main .hero .box-left .start a:hover {
+  color: #1ebfc1;
+  background-color: #fff;
+  border: 1px solid #1ebfc1;
+}
+
+main .hero .box-left .start button {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 62px;
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* box-right */
+main .hero .box-right {
+  position: relative;
+  margin-left: 136px;
+}
+
+main .hero .box-right .woman {
+  width: 576px;
+  height: 631px;
+  flex-shrink: 0;
+}
+
+main .hero .box-right .courses {
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-left: 25px;
+}
+
+main .hero .box-right .courses .big {
+  position: relative;
+}
+
+main .hero .box-right .courses .book {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+
+main .hero .box-right .courses .info {
+  width: 55px;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .hero .box-right .schedules {
+  width: 124px;
+  height: 132px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  padding-top: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: absolute;
+  bottom: 46px;
+  left: -65px;
+}
+
+main .hero .box-right .schedules .info {
+  text-align: center;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .hero .box-right .schedules svg:nth-child(2) {
+  margin-top: 16px;
+}
+
+main .hero .box-right .schedules svg:nth-child(3) {
+  margin-top: 12px;
+}
+
+main .hero .box-right .schedules svg:nth-child(4) {
+  margin-top: 10px;
+}
+
+main .hero .box-right .schedules .thanh-trang {
+  width: 26px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #edf1f5;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+main .hero .box-right .students {
+  position: absolute;
+  bottom: 41px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .hero .box-right .students .title {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 17px;
+  margin-left: 35px;
+  margin-bottom: 8px;
+}
+main .hero .box-right .students .avatar {
+  display: flex;
+}
+
+main .hero .box-right .students .avatar .ava {
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  margin-left: -7px;
+  object-fit: cover;
+}
+
+main .hero .box-right .students .avatar .ava:nth-child(1) {
+  margin-left: 35px;
+}
+
+main .hero .box-right .students .avatar div {
+  background-color: #1ebfc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
 }
