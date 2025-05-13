@@ -307,3 +307,203 @@ main .hero .box-right .students .avatar div {
   font-size: 1rem;
   font-weight: 500;
 }
+
+/* Feautures */
+main .feautures {
+  padding-top: 209px;
+  padding-left: 135px;
+}
+
+main .feautures span {
+  display: inline-block;
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+main .feautures h2 {
+  width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 133.333%; /* 133.333% */
+  margin-bottom: 18px;
+}
+
+main .feautures p {
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+main .feautures .contents {
+  display: flex;
+  gap: 209px;
+}
+
+main .feautures .contents .title {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+
+main .feautures .contents .info {
+  width: 168px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 168.75%; /* 168.75% */
+}
+
+main .feautures .contents .content-inter:nth-child(2) .info {
+  width: 223px;
+}
+
+main .feautures .contents .content-inter:nth-child(3) .info {
+  width: 224px;
+}
+
+/* courses */
+main .feautures + .courses {
+  padding-top: 130px;
+  padding-left: 135px;
+}
+
+main .courses span {
+  display: inline-block;
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+main .courses h2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+main .courses .view {
+  display: flex;
+  align-items: center;
+}
+
+main .courses .view p {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177.778%; /* 177.778% */
+  margin-right: 526px;
+}
+
+main .courses .view a {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+main .courses .fiction {
+  display: flex;
+  gap: 47px;
+  margin-top: 79px;
+}
+
+main .courses .fiction .item img {
+  width: 359px;
+  height: 393px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.35;
+}
+
+main .courses .fiction,
+main .courses .fiction .item img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+main .courses .fiction .item {
+  position: relative;
+}
+
+main .courses .fiction .item .box {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  padding-top: 18px;
+  padding-left: 25px;
+  width: 325px;
+  height: 195px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .courses .fiction .item .box .title {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+main .courses .fiction .item .box .info1 {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+main .courses .fiction .item .box .info1 strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+main .courses .fiction .item .box .info2 {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+main .courses .fiction .item .box .time {
+  display: flex;
+  gap: 10px;
+}
+
+main .courses .fiction .item .box .time .class {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main .courses .fiction .item .box .time .months {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main .courses .fiction .item .box .time .dot {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+}
+
+main .courses .fiction .item .box .content {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
